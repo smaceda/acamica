@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primer formulario</title>
+    </head>
+   
+    <body>
+        <form action="" >
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+            </div> 
+
+            <div>
+                <label for="Pais">Pais:</label>
+                <select name="Pais" id="Pais" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+            </div> 
+            
+            <div>
+                <label for="Pasaportes">Pasaportes que posee:</label><br>
+                <select name="Pasaporte" size="4" multiple required>
+                    <option value="pArgentina">Argentino</option>
+                    <option value="pChile">Chileno</option>
+                    <option value="pUruguay">Uruguayo</option>
+                    <option value="pMexico">Mexicano</option>
+                </select>
+            </div>
+            
+            <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+            </div>
+
+        </form>
+       
+        <br><br><br>
+       
+        <form action="">
+            <fieldset>
+              <legend>Datos del Hijo:</legend>
+              <div>
+                <label for="fname">Nombre:</label>
+                <input type="text" id="fname" name="fname" value="" required>
+              </div>
+              <div>
+                <label for="lname">Apellido:</label>
+                <input type="text" id="lname" name="lname" value="" required>
+              </div>
+              <div>
+                <label for="cumpleanos">Cumpleaños:</label>
+                <input type="date" id="cumpleanos" name="cumpleanos" required>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+              </div>
+            </fieldset>
+        </form>
+        <br><br><br>
+
+        <button type="button" onclick="alert('Asi funciona el tag Button')">Haceme Click!!!</button>
+
+    <br><br><br><br><br>
+
+    <h1>Have something to say?</h1>
+
+<p>Through this form you can send me a message to help me get rid of errors in the pages, to improve my blog, or to just to say hello. Anything you have to say is very welcome, so don't hesitate and drop a few words. I'll be happy to write back to you!</p>
+
+<form action="" target="">
+
+  <fieldset>
+
+    <legend>Message</legend>
+
+    <p><label>Your name: <input type="text" name="fullname"></label></p>
+
+    <p><label>Your e-mail address: <input type="text" name="email"></label></p>
+
+    <p>
+
+      <label>
+
+        Your message:<br>
+
+        <textarea name="message"></textarea>
+
+      </label>
+
+    </p>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend>New topics</legend>
+
+    <p>
+
+      What topics would you like me to talk about more in my site?<br>
+
+      <label><input type="checkbox" name="html"> HTML</label>
+
+      <label><input type="checkbox" name="graphics"> Graphics</label>
+
+      <label><input type="checkbox" name="videogames"> Videogames</label>
+
+      <label><input type="checkbox" name="art"> Art</label>
+
+      <label><input type="checkbox" name="music"> Music</label>
+
+    </p>
+
+  </fieldset>
+
+  <p>
+
+    <input type="submit" value="Send message">
+
+    <input type="reset" value="Start over">
+
+  </p>
+
+</form>
+      
+    </body>
+</html>

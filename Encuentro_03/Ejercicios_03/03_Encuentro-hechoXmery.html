@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicioform</title>
+</head>
+<body>
+  <form action="">Formulario de inscripcion</form>
+    <div>
+      <label for="Nombre">Nombre</label>
+      <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required> 
+</div>
+    <div>
+      <label for="Apellido">Apellido</label>
+      <input type="text" name="Apellido" id="Apellido" placeholder="Apellido" required> 
+</div>
+    <div>
+      <label for="correo">E-mail</label>
+      <input type="email" id="correo" name="correo" placeholder="Email" required>
+    </div>
+      <div>
+        <label for="pais">Seleccione pais</label>
+        <select name="pais" id="pais" required>
+          <option value="1">Argentina</option>
+          <option value="2">España</option>
+          <option value="3">Mexico</option>
+          <option value="4">Guatemala</option>
+          <option value="5">Chile</option>
+          <option value="6">Paraguay</option>
+          <option value="7">Colombia</option>
+          <option value="8">Bolivia</option>
+          <option value="9">Peru</option>
+          <option value="10">Uruguay</option>
+        </select>
+      </div>    
+<div>
+        <label for="carrera">A que carrera deseas inscribirte</label>
+        <select name="carrera" id="carrera" required>
+          <option value="0">UXUI</option>
+          <option value="1">Data Science</option>
+          <option value="2">Desarrollo Web Full Stack</option>
+          <option value="3">Front End React</option>
+        </select>
+      </div>
+      <div>
+        <label for="modalidad">Modalidad</label>
+        <select name="modalidad" id="modalidad" required>
+          <option value="0">Online</option>
+          <option value="1">Semipresencial</option>
+        </select>
+      </div>
+    <div>
+        <label for="boton">Estas trabajando actualmente?</label>
+        <input type="radio" name="boton" value="si">Si
+        <input type="radio" name="boton" value="no">No
+    </div> 
+<div>
+       <!-- <label for="">Telefono de contacto</label>
+        <input type="tel" name="Telefono">   -->
+        <label for="Telefono">Telefono de contacto/label>  
+<input type="tel" id="Telefono" name="Telefono" pattern="[0-9]{4}-[0-9]{4}" placeholder="4444-4444">
+    
+</div>
+      <div>
+        <label for="Descripcion">Descripcion Personal:</label><br>
+        <textarea id="Descripcion" rows="10" cols="80" maxlength="300" placeholder="Maximo 300 caracteres"></textarea>
+      </div>
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reinciar">
+</div>
+      
+</body>
+</html>

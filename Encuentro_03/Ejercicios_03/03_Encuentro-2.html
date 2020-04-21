@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Inscripcion</title>
+    </head>
+   
+    <body>
+        <form action="" >
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+            </div> 
+            <div>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+            </div> 
+            <div>
+                <label for="Correo">Correo Electronico:</label>
+                <input type="email" id="Correo" name="Correo" placeholder="Correo" required>
+            </div> 
+            <div>
+                <label for="Pais">Pais:</label>
+                <select name="Pais" id="Pais" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+            </div> 
+            
+            <div>
+                <label for="Carrera">A que carrera deseas inscribirte?</label>
+                <select name="Carrera" id="Carrera" >
+                    <option value="0">UX/UI</option>
+                    <option value="1">Data Science</option>
+                    <option value="2">Desarrollo Web Full Stack</option>
+                    <option value="3">FrontEnd Avanzado</option>
+                </select>
+            </div> 
+            
+            <div>
+                <label for="Modalidad">Modalidad: </label>
+                <select name="Modalidad" id="Modalidad" >
+                    <option value="0">Presencial</option>
+                    <option value="1">Online</option>
+                </select>
+            </div> 
+            
+            <div>
+                <label for="rsi">Esta trabajando Actualmente?</label><br>
+                <input type="radio" id="empleado" name="empleado" value="emlpeado">
+                <label for="empleado">Si</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">No</label><br>
+            
+            <div>
+            <div>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{4}" placeholder="4444-4444">
+            </div>
+            <div>
+                <label for="Descripcion">Descripcion Personal:</label>
+                <textarea id="Descripcion" rows="4" cols="50" maxlength="3" placeholder="Describase"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+            </div>
+        
+        </form>
+       
+       
+        
+      
+    </body>
+</html>
+
+

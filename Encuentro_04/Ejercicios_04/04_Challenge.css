@@ -1,0 +1,42 @@
+body {
+    /* background: grey; */
+    
+    /* background: url('04_Img-fondo.jpg');
+    opacity: 1.0; */
+}
+
+.imagenhead {
+    padding: 4px;
+    border: 6px solid coral;
+    border-radius: 15px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.titulo {
+    font-family: times new roman;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.comentario {
+    font-family: 'arial';
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cuerpo {
+    font-size: 25px;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

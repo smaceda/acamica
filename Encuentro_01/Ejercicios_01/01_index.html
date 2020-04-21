@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi página de prueba!</title>
+  </head>
+  <body>
+    <h1 id="nombre">Sebastian Ariel MAceda</h1>
+	<h6 id="fecha_nacimiento">05/01/1981</h6>
+	<p id="descripcion">Me llamo sebastian y vivo en CABA; actualmente en cuarentena</p>
+
+	<div>hola <span>mundo</span></div>
+	<div>hola <div>mundo</div></div>
+  </body>
+</html>
+
+<style>
+	body{ background-color: darkgrey; }
+	h1{ color: red; }
+	h6{ padding-left: 20px; }
+	p{ background-color: black; color: white; }
+</style>
+
+<script>
+	nombre = document.getElementById('nombre');
+	nombre.addEventListener("click",function(){ alert("Bienvenido a mi sitio web ") } );
+
+	descripcion = document.getElementById('descripcion');
+	descripcion.addEventListener("mouseenter", function(){
+		descripcion.style.color = "black";
+		descripcion.style.backgroundColor = "white";
+	});
+		
+	descripcion.addEventListener("mouseout", function(){
+		descripcion.style.color = "white";
+		descripcion.style.backgroundColor = "black";
+	});
+
+</script>
