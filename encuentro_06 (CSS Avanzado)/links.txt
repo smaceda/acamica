@@ -1,0 +1,8 @@
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Positioning/entendiendo_z_index
+
+https://developer.mozilla.org/es/docs/Web/CSS/transition-timing-function
+
+https://cssanimation.rocks/clocks/
+
+https://developer.mozilla.org/es/docs/Web/CSS/transition-timing-function
+
