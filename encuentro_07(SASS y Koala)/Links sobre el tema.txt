@@ -1,1 +1,8 @@
 https://raygun.com/blog/10-reasons-css-preprocessor/
+
+
+https://sass-lang.com/guide
+https://desarrolloweb.com/articulos/mixin-sass.html
+https://devcode.la/tutoriales/funciones-mixin-exted-sass/
+https://medium.com/@sergiodxa/ventas-y-desventajas-de-los-pre-procesadores-de-css-6528fdac9926
+

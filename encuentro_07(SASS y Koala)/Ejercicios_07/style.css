@@ -55,13 +55,15 @@ p {
   color: #fff;
   background: linear-gradient(109.6deg, #1fb3ed 11.2%, #7adbec 91.1%);
   border-radius: 5px;
-  border: 2px solid rgba(255, 255, 255, 0); }
+  border: 2px solid rgba(255, 255, 255, 0);
+  /*efecto hover en el boton*/ }
+  .btn :hover {
+    border: 2px solid #1fb3ed;
+    color: #000;
+    background: none; }
 
-/*efecto hover en el boton*/
-.btn:hover {
-  border: 2px solid #1fb3ed;
-  color: #000;
-  background: none; }
+.articleContainer {
+  padding: 40px 10px; }
 
 .articuloIzquierdo {
   float: left;
@@ -71,9 +73,6 @@ p {
   display: inline-block;
   width: 50%; }
 
-.articleContainer {
-  padding: 40px 10px; }
-
 form {
   border-radius: 5px;
   border: 2px solid #1fb3ed;
@@ -81,7 +80,9 @@ form {
   width: 300px;
   margin: 0 auto; }
 
-label, button, input {
+label,
+button,
+input {
   width: 100%;
   display: block;
   margin-top: 5px; }
