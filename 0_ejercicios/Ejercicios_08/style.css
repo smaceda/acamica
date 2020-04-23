@@ -1,4 +1,4 @@
-.caja{
+.caja {
   width: 600px;
   height: 100px;
   background-color: orange;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .caja{
+  .caja {
     width: 300px;
     background-color: blue;
   }
