@@ -1,0 +1,20 @@
+$ancho: 720px;
+$blue: #4285F4;
+$green: #33D374;
+
+.box_uno {
+  background-color: $blue;
+  width: $ancho/2;
+}
+.box_dos {
+  background-color: $green;
+  width: ($ancho/2)-50;
+}
+.box_tres {
+  background-color: $blue;
+  width: ($ancho/2)+50;
+}
+.box_cuatro {
+  background-color: $green;
+  width: ($ancho/7)*2;
+}

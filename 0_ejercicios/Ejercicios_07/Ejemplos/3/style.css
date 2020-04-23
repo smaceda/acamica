@@ -1,0 +1,18 @@
+.btn_success, .btn_alert, .btn_cancel {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #FFFFFF; }
+
+.btn_success {
+  background-color: #108EFF; }
+
+.btn_alert {
+  background-color: #FF8516; }
+
+.btn_cancel {
+  background-color: #D61E20; }
+
+/*# sourceMappingURL=style.css.map */
