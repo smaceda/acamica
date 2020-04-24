@@ -1,0 +1,34 @@
+/*VARIABLES*/
+/*EXTEND*/
+/*MIXIN*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #252424;
+  color: #bebebe; }
+  body section {
+    padding: 5px;
+    margin: 20px; }
+    body section h1 {
+      color: coral;
+      padding-left: 10px;
+      padding-bottom: 10px; }
+    body section h3 {
+      color: rgba(255, 127, 80, 0.582);
+      padding-left: 10px;
+      padding-bottom: 10px; }
+    body section p {
+      padding-left: 20px;
+      padding-bottom: 10px; }
+    body section ul {
+      padding-left: 40px;
+      padding-bottom: 10px; }
+  body .estudios div {
+    display: flex; }
+  body .trabajos div {
+    display: flex; }
+
+/*# sourceMappingURL=style.css.map */
