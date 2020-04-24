@@ -27,8 +27,14 @@ body {
       padding-left: 40px;
       padding-bottom: 10px; }
   body .estudios div {
-    display: flex; }
+    display: inline-flex; }
   body .trabajos div {
-    display: flex; }
+    display: inline-flex; }
+
+@media only screen and (max-width: 660px) {
+  body .estudios div {
+    display: inline-block; }
+  body .trabajos div {
+    display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
