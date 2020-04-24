@@ -1,17 +1,18 @@
 $ancho:600px;
-$alto=:100px;
+$alto:100px;
 
 .caja {
-  width: 600px;
-  height: 100px;
+  width: $ancho;
+  height: $alto;
   background-color: orange;
   border: 1px solid red;
   margin: 10px;
+  /* display: inline; */
 }
 
 @media screen and (max-width: 600px) {
   .caja {
-    width: 300px;
+    width: $ancho/3;
     background-color: blue;
   }
 }
