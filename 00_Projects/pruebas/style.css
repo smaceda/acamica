@@ -7,12 +7,13 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-body p {
-  font-size: 30px; }
-body .p1 {
-  font-family: 'IBM Plex Mono', monospace;
-  color: blue; }
-body .p2 {
-  color: blue; }
+body div .box {
+  width: 100px;
+  margin: 20px 20px 20px 0;
+  height: 100px;
+  display: inline-block;
+  padding-top: 20px;
+  text-align: center;
+  background: #7decec; }
 
 /*# sourceMappingURL=style.css.map */

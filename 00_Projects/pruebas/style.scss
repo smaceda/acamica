@@ -1,23 +1,28 @@
 /*normalizadores*/
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    p {font-size: 30px;
+    div{
         
+        div {
+            
         
+        }
+        .box {
+            width: 100px;
+            margin: 20px 20px 20px 0;
+            height: 100px;
+            display: inline-block;
+            padding-top: 20px;
+            text-align: center;
+            background: #7decec;
+        }
     }
-    .p1{
-        font-family: 'IBM Plex Mono', monospace;
-        color: blue;
-    }
-    .p2{
-        color: blue;
+  }
 
-    }
-}
