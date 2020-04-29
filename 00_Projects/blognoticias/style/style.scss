@@ -1,3 +1,8 @@
+* {
+    border: 0px;
+    padding: 5px;
+}
+
 header{
     background-color: palevioletred;
 }
@@ -41,4 +46,9 @@ main {
 
 footer {
     background-color: grey;
+    blex-basis: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

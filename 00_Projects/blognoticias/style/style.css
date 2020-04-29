@@ -1,3 +1,7 @@
+* {
+  border: 0px;
+  padding: 5px; }
+
 header {
   background-color: palevioletred; }
 
@@ -30,6 +34,11 @@ main {
   height: auto; }
 
 footer {
-  background-color: grey; }
+  background-color: grey;
+  blex-basis: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
