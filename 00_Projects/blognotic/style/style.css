@@ -1,0 +1,35 @@
+header {
+  background-color: palevioletred; }
+
+main {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 600px; }
+
+.box {
+  height: 50px;
+  width: 50px;
+  display: flex; }
+
+.contenedor {
+  background-color: coral;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center; }
+
+.indice {
+  background-color: red;
+  flex-basis: 250px;
+  height: auto; }
+
+.noticias {
+  background-color: blue;
+  flex-basis: 100%;
+  height: auto; }
+
+footer {
+  background-color: grey; }
+
+/*# sourceMappingURL=style.css.map */
