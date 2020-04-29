@@ -3,7 +3,10 @@
   padding: 5px; }
 
 header {
-  background-color: palevioletred; }
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
 
 main {
   background-color: green;
@@ -21,7 +24,8 @@ main {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: row; }
 
 .indice {
   background-color: red;
@@ -35,10 +39,45 @@ main {
 
 footer {
   background-color: grey;
-  blex-basis: auto;
+  flex-basis: auto;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.navclass {
+  display: flex;
+  flex-direction: column; }
+
+button {
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: pink;
+  margin: 4px; }
+
+#inf {
+  text-decoration: none;
+  color: coral; }
+
+@media (max-width: 800px) {
+  .contenedor {
+    flex-direction: column; }
+
+  .box {
+    flex-basis: 100%;
+    width: auto; }
+
+  .indice {
+    padding-left: 20px;
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+  .navclass {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; } }
 
 /*# sourceMappingURL=style.css.map */

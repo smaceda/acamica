@@ -5,6 +5,9 @@
 
 header{
     background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 main {
@@ -28,11 +31,12 @@ main {
     height: auto;
     display: flex;
     justify-content: center;
-
+    flex-direction: row;
 
 }
 
 .indice {
+    //padding-left: 20px;
     background-color: red;
     flex-basis: 250px;
     height: auto;
@@ -46,9 +50,53 @@ main {
 
 footer {
     background-color: grey;
-    blex-basis: auto;
+    flex-basis: auto;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.navclass {
+    //background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    border: 2px solid white ;
+    border-radius: 8px;
+    background-color: pink;
+    margin: 4px;
+}
+#inf {
+    text-decoration: none;
+    color: coral;
+}
+
+
+@media (max-width: 800px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    .box {
+        flex-basis: 100%;
+        width: auto;
+    }
+    .indice{
+        padding-left: 20px;
+        flex-basis: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    .navclass {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;;
+    }
+    
+
 }
