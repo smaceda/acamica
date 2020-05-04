@@ -43,18 +43,42 @@ main {
 }
 
 .noticias {
+    display: flex;
     background-color: blue;
     flex-basis: 100%;
     height: auto;
+    flex-direction: column;
 }
 .articulo {
     display: flex;
+    height: 120px;
+    background-color: lightgreen;
+
 }
 .artimagen {
     display: flex;
+    max-width: 120px;
 }
 .arttitulo {
     display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+body main div div div div h4 {
+    margin-top: 7px;
+    height: 20%;
+    
+}
+body main div div div div p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 80%;
+}
+body main div div div div img {
+    height: 100%;
+    width: 100%;
 }
 
 footer {
@@ -84,7 +108,7 @@ button {
 .articulo {
     display: flex;
 }
-.
+
 
 @media (max-width: 800px) {
     .contenedor {
