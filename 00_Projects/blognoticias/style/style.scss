@@ -47,6 +47,15 @@ main {
     flex-basis: 100%;
     height: auto;
 }
+.articulo {
+    display: flex;
+}
+.artimagen {
+    display: flex;
+}
+.arttitulo {
+    display: flex;
+}
 
 footer {
     background-color: grey;
@@ -72,7 +81,10 @@ button {
     text-decoration: none;
     color: coral;
 }
-
+.articulo {
+    display: flex;
+}
+.
 
 @media (max-width: 800px) {
     .contenedor {
