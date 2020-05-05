@@ -1,0 +1,73 @@
+/*GRID CSS*/
+
+/*RULES FOR THE .grid-header/HEADER TAG*/
+.grid-header {
+  /*"GRID-AREA" PROPERTY IS A PROPERTY WHO GIVES THE .grid-header A NAME FOR A CERTAIN AREA - WHICH IS DEFINED FURTHER DOWN IN THE CSS WITH GRID-TEMPLATE-AREAS PROPERTY*/
+  grid-area: header;
+  background: tomato;
+  color: white;
+}
+/*RULES FOR THE .grid-nav/NAV TAG*/
+.grid-nav {
+  grid-area: nav;
+  background: deepskyblue;
+  color: white;
+}
+/*RULES FOR THE .grid-main/MAIN TAG*/
+.grid-main {
+  grid-area: content;
+  background: lightgreen;
+  color: white;
+}
+
+
+/*RULES FOR THE .grid-footer/FOOTER TAG*/
+.grid-footer {
+  grid-area: footer;
+     background: hotpink;
+  color: white;
+}
+
+/*RULES FOR THE .grid-container/CONTAINER TAG*/
+.grid-container{
+  /*DEFINES THE GRID ATTRIBUTE TO THE PROPERTY "DISPLAY:"*/
+  display: grid;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  text-align: center;
+  /*DEFINES THE BEFORE MENTIONED GRID-AREAS ON THE CHILD ELEMENTS WITHIN .grid-container*/
+  grid-template-areas:
+    /*THE HEADER IS SPREAD OUT TO FILL 3/3 OF THE PAGES WIDTH - BASICALLY ITS AN ORDER SYSTEM LIKE THE FLEXBOX PROPERTY "ORDER:"*/
+    "header header"
+    "nav content"
+    "footer footer";
+/*DEFINES HOW BIG THE GRID COLUMNS MUST BE - AFFECTS THE NAV AND ASIDE - THE NAV AS THE FIRST ATTRIBUTE/200PX - AND THEN THE FRACTIONAL UNIT WHICH IS PLACEMENT ONCE AGAIN*/
+  grid-template-columns: 200px 1fr;
+  /*SAME SCENARIO JUST WITH THE ROWS - HEADER AND FOOTER VALUES - AND AGAIN SOME "PADDING" WITH THE 1 FRACTIONAL UNIT - WHICH TAKES UP THE AVAILBLE SPACE - IN THIS CASE 1 UNIT OF IT*/
+  grid-template-rows: 40px 1fr 40px;
+  /*THE GRID GAP BETWEEN ALL OF ITS CHILDREN - FOOTER ETC. - IN HUMAN THE WHITESPACE/PADDING*/
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "nav"
+      "content"
+      "footer";
+/*TELLS THE GRID COLUMNS THAT EACH COLUMN SHOULD ONLY TAKE UP WHAT IS EQUAL TO "1" SPACE OF THE ENTIRE CONTAINER*/
+    grid-template-columns: 1fr;
+    /*SAME SCENARIO MENTIONED EARLIER - ONLY WITH A MIN-WIDTH ATTRIBUTE*/
+    grid-template-rows:
+      auto /* Header */
+      minmax(75px, auto) /* Nav */
+      1fr /* Content */
+      auto; /* Footer */
+  }
+
+  nav, aside {
+    margin: 0;
+  }
+}

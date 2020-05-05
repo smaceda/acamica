@@ -3,9 +3,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  grid-gap: 5px;
+  grid-gap: 1px;
   max-width: 600px;
   height: 600px;
+}
+
+#grilla > div {
+  border: 2px solid black;
 }
 
 .header {
