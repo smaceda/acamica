@@ -1,0 +1,19 @@
+ 
+#grilla {
+  display: grid;
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+  max-width: 600px;
+  height: 500px;
+}
+
+#grilla > div {
+  border: 1px solid red;
+  background-color: yellow
+}
+
+#flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
