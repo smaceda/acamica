@@ -1,0 +1,17 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div {
+    flex-basis: 50%;
+    
+}
+div img {
+    font-size: 15px;
+}
+
+
+
+
+
