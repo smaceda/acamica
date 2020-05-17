@@ -115,7 +115,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 //******************************************************
 /*menu simple(no hamburguesa) con tamaño mayor a 510px*/
 //******************************************************
-@media screen and (min-width: 510px) {
+@media screen and (min-width: 320px) {
     header nav .menu ul {
         position: relative;
         top: 0;
